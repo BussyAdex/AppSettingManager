@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "0p6T6rB4JwaTYwxnoQYEvTGqoY6A8uFMECOaUSaotfEdf857ktV9VGFZAQgBVMSV9bikvFEYt8n3znXOi+ItCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BUSSYADEX\\Documents\\AppSettingManager\\AppSettingManager\\AppSettingManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.3.2\\azure.extensions.aspnetcore.configuration.secrets.1.3.2.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\azure.identity\\1.13.0\\azure.identity.1.13.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\azure.security.keyvault.secrets\\4.6.0\\azure.security.keyvault.secrets.4.6.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.identity.client\\4.65.0\\microsoft.identity.client.4.65.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.65.0\\microsoft.identity.client.extensions.msal.4.65.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.clientmodel\\1.1.0\\system.clientmodel.1.1.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.memory.data\\6.0.0\\system.memory.data.6.0.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512",
+    "C:\\Users\\BUSSYADEX\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

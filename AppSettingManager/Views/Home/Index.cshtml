@@ -1,0 +1,52 @@
+﻿@inject Microsoft.Extensions.Configuration.IConfiguration config
+@inject Microsoft.Extensions.Options.IOptions<SocialLoginSettings> socialLoginOptions
+
+<div class="row mb-2">
+	<div class="col-md-6">
+		<div class="card flex-md-row mb-4 box-shadow h-md-250">
+			<div class="card-body d-flex flex-column align-items-lg-start">
+				<strong class="d-inline-block mb-2 text-primary">SendGrid</strong>
+				<div class="mb-1 text-muted">@ViewBag.SendGridKey</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="card flex-md-row mb-4 box-shadow h-md-250">
+			<div class="card-body d-flex flex-column align-items-lg-start">
+				<strong class="d-inline-block mb-2 text-primary">Twilio Injected</strong>
+				<div class="mb-1 text-muted">@config.GetSection("Twilio:AuthToken").Value</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="card flex-md-row mb-4 box-shadow h-md-250">
+			<div class="card-body d-flex flex-column align-items-lg-start">
+				<strong class="d-inline-block mb-2 text-primary">Twilio from Conroller</strong>
+				<div class="mb-1 text-muted">@config.GetSection("Twilio:AuthToken").Value</div>
+				<div class="mb-1 text-muted">@config.GetSection("Twilio:AccountSid").Value</div>
+				<div class="mb-1 text-muted">@config.GetSection("Twilio:PhoneNumber").Value</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="card flex-md-row mb-4 box-shadow h-md-250">
+			<div class="card-body d-flex flex-column align-items-lg-start">
+				<strong class="d-inline-block mb-2 text-primary">Twilio</strong>
+				<div class="mb-1 text-muted">@ViewBag.ThirdLevelSettingValue</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="card flex-md-row mb-4 box-shadow h-md-250">
+			<div class="card-body d-flex flex-column align-items-lg-start">
+				<strong class="d-inline-block mb-2 text-primary">Key</strong>
+				<div class="mb-1 text-muted">@ViewBag.FacebookKey</div>
+				<div class="mb-1 text-muted">@socialLoginOptions.Value.GoogleSettings.Key</div>
+			</div>
+		</div>
+	</div>
+
+</div>
